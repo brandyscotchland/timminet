@@ -1,0 +1,29 @@
+{
+  "name": "timminet",
+  "version": "1.0.0",
+  "description": "A highly secure and user-friendly web administration interface for Debian and Ubuntu servers",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "create-admin": "node backend/utils/createAdmin.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "socket.io": "^4.8.1",
+    "systeminformation": "^5.27.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
