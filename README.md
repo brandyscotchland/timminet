@@ -44,12 +44,12 @@ A highly secure and user-friendly web administration interface for Debian and Ub
 
 1. **Download and run the installation script:**
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/your-repo/timminet/main/install.sh | sudo bash
+   curl -fsSL https://raw.githubusercontent.com/brandyscotchland/timminet/refs/heads/main/install.sh | sudo bash
    ```
 
 2. **Or clone and install manually:**
    ```bash
-   git clone https://github.com/your-repo/timminet.git
+   git clone https://github.com/brandyscotchland/timminet.git
    cd timminet
    sudo ./install.sh
    ```
@@ -258,7 +258,7 @@ sudo ufw allow 2851/tcp
 ### Local Development Setup
 ```bash
 # Clone repository
-git clone https://github.com/your-repo/timminet.git
+git clone https://github.com/brandyscotchland/timminet.git
 cd timminet
 
 # Install backend dependencies

@@ -155,7 +155,7 @@ install_application() {
         cp -r . "$INSTALL_DIR"/
     else
         log_info "Cloning from GitHub..."
-        git clone https://github.com/your-repo/timminet.git "$INSTALL_DIR"
+        git clone https://github.com/brandyscotchland/timminet.git "$INSTALL_DIR"
     fi
     
     cd "$INSTALL_DIR"
@@ -193,7 +193,7 @@ create_systemd_service() {
     cat > "/etc/systemd/system/$SERVICE_NAME.service" << EOF
 [Unit]
 Description=TimmiNet - Secure Server Administration Interface
-Documentation=https://github.com/your-repo/timminet
+Documentation=https://github.com/brandyscotchland/timminet.git
 After=network.target
 
 [Service]
